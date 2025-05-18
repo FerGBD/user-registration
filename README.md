@@ -1,8 +1,3 @@
-Claro, Fernando! Aqui está seu conteúdo formatado corretamente em um `README.md` profissional para o GitHub:
-
----
-
-````markdown
 # 📋 Sistema de Cadastro de Usuários
 
 ## 📌 Visão Geral
