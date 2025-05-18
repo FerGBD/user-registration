@@ -1,12 +1,72 @@
-# React + Vite
+# 📋 Sistema de Cadastro de Usuários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Visão Geral
 
-Currently, two official plugins are available:
+Aplicação desenvolvida em **React** com **Material-UI** para gerenciamento de usuários, utilizando **IndexedDB** (via Dexie.js) para persistência local dos dados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ **CRUD Completo** (Create, Read, Update, Delete)
+- ✅ **Validação de Formulários**  
+  - Nome: mínimo 3, máximo 50 caracteres  
+  - E-mail: formato válido
+- ✅ **Busca e Ordenação**  
+  - Filtro por nome e e-mail  
+  - Ordem alfabética A-Z / Z-A
+- ✅ **Dark/Light Mode** com persistência
+- ✅ **Toasts de Notificação** com feedback visual
+- ✅ **Confirmação de Exclusão** com modal de segurança
+
+---
+
+## 🚀 Como Executar
+
+### 🔧 Pré-requisitos
+- [Node.js](https://nodejs.org/) (versão 16 ou superior)
+
+### 💻 Instalação
+
+```bash
+git clone https://github.com/FerGBD/user-registration
+cd user-registration
+npm install
+npm run dev
+````
+
+### 📦 Build para Produção
+
+```bash
+npm run build
+```
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+| Tecnologia     | Finalidade                               |
+| -------------- | ---------------------------------------- |
+| React          | Biblioteca JavaScript para interfaces    |
+| Material-UI    | Componentes UI modernos                  |
+| Dexie.js       | Wrapper para IndexedDB                   |
+| Formik + Yup   | Gerenciamento de formulários e validação |
+| React-Toastify | Notificações e alertas                   |
+
+---
+
+## 📸 Telas
+
+| Funcionalidade | Descrição                                    |
+| -------------- | -------------------------------------------- |
+| Listagem       | Exibe os usuários com ações (editar/remover) |
+| Cadastro       | Formulário com validações                    |
+| Edição         | Atualização dos dados                        |
+| Dark Mode      | Alternância entre temas claro e escuro       |
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença **MIT**.
+Sinta-se livre para usar, modificar e distribuir.
